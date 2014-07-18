@@ -1,0 +1,8 @@
+create a list
+insert an element before another element in existing list
+insert an element after another element in existing l;ist 
+delete a given element from the list
+ traverse the list
+sort the list
+delete every alternate node in thye list
+insert a element in a sorted list such that the order is maintained

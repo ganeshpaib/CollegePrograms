@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="ALBUM" targetNamespace="http://www.tempuri.org/ALBUM.xsd" xmlns:mstns="http://www.tempuri.org/ALBUM.xsd" xmlns="http://www.tempuri.org/ALBUM.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="ALBUM" msdata:IsDataSet="true">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="A_MUSIC_CATEGORY">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CATEGORY_ID" type="xs:string" />
+              <xs:element name="CATEGORY" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="A_MUSIC_STOCK">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ITEM_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="ALBUM_NAME" type="xs:string" />
+              <xs:element name="CATEGORY_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="UNITS" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUPPLIER_ID" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:A_MUSIC_CATEGORY" />
+      <xs:field xpath="mstns:CATEGORY_ID" />
+    </xs:unique>
+    <xs:unique name="A_MUSIC_STOCK_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:A_MUSIC_STOCK" />
+      <xs:field xpath="mstns:ALBUM_NAME" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

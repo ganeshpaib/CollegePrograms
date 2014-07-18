@@ -1,0 +1,119 @@
+Sample Puzzles:
+
+1)Find the 3 digit no. whose last digit is the square root of the first digit and second digit is the sum of the other two digits.
+And that number is divisible by 2,3,6,7.What is that number?
+Ans: 462
+
+2)Two people are playing with a pair of dies. Instead of numbers, the dies have different colors on their sides. The first person
+wins if the same color appears on both the dies and the second person wins if the colors are different. The odds of their winning
+are equal. If the first dice has 5 red sides and 1 blue side, find the colour(s) on the second one.
+Ans: 3 red,3 blue
+Solution : p(r1)=5/6, p(b1)=1/6,Let x sides are red.
+Prob. To get both colors are same => [(5/6)(x/6)+(1/6)(6-x)/6] =1/2, After solving x=3
+
+3) A car is traveling at a uniform speed. The driver sees a milestone showing a 2-digit number. After traveling for an hour the
+driver sees another milestone with the same digits in reverse order. After another hour the driver sees another milestone containing
+the same two digits with a zero in between(0). What is the average speed of the driver.
+Ans: 45 kmph 
+
+4) There are three persons A, B, C. one day they set out in different directions and each one steals an animal.The animals are camel,
+horse and a mule though not in the order. A CBI officer catches them and on interrogation he has the following statements:
+A says: B has stolen a horse
+C says: A is telling wrong, B has stolen a mule.
+B says: A and C are both telling wrong. I have stolen nothing.
+
+The person stealing a camel tells wrong while the person with a horse tells right. So tell which person steal which animal.
+Ans: A: Camel B: Mule c: Horse
+
+5) There are 3 societies A, B, C. A Lent Tractors to B and C as many as they had already. After some time B gave as many tractors
+to A and C as many as they have. After sometime C did the same thing. At the end of this transaction each one of them had 24.
+Find the cars each originally had. This question was bit differently asked with the same thing.
+Ans: A had 39 cars, B had 21 cars C had 12 cars 
+
+6) The quarter of the time from midnight to present time added to the half of the time from the present to
+midnight gives the present time. What is the present time?
+Ans: 9hrs past 36 minutes AM
+
+10) 8 Kigs and 14 Ligs can do 510 tors of work in10days. 13 Kigs and 6 Ligs can do 484 tors of work in 12 days.
+Then find work done by Kigs and Ligs individually in tors/hr?
+
+11) A boy is playing a game. He took totally 55 blocks and kept like placing some x number on the ground,next one less than that above
+those blocks like that till the topmost one is one, how many blocks are there at the base level?
+Ans: 10
+
+12) A person traveled ¾ the of a distance by riding horse. He traveled remaining distance by walk. If he took twice the time to walk as he
+rode, how many times he rode faster than he walked?
+May 2003
+
+13) The below are the statements of 3 persons. If the person's speak only two of the three statements correctly, what are their ages?
+A: A is 22. B is 1 yr more than A. C is 1 yr less than A.
+B: I am not the youngest. There is 3 yrs difference between me and C. C is 25.
+C: A is 23 B > A
+
+14) A, B, C, D, E were shirts of colours red, blue, green, yellow and orange respectively. They stood on a ladder. Yellow is not the colour at the
+tail end of the ladder. Yellow is between those who wore green and red. Green is between those who wore yellow and orange and who is behind blue.
+Which color is at the end of the ladder?
+
+15) In a business, A invested 3 1/2 times more than B. They wanted to include C by taking an amount of Rs2500 from C. How should that amount be
+divided among A and B such that three of them get the same interest?
+
+16) One of the arms of a balance is longer than the other. If 1kg is kept on the left pan, it is equal to 8 water melons. If the 1kg is kept on a a right pan,
+it is equal to 2 water melons on right. If the weight of all the watermelons are same, what is the weight of the water melon?
+
+17) A person has a son. His son's age is five times his daughter's age. His wife's age is 5 times his son's age. His age is twice his wife's age.
+The total of all this ages is equal to his son's grandma's age who celebrated her 81st birthday this year. What is his son's age?
+
+18) Tom has given some stamps to A. He asked A about them. A said " They were great. B got 3 more than ½ of what she would have got if I kept 3 more
+than ½ of what she got. Tom asked A "How much did u keep?"
+A answered "two more than what I gave B". Find the total no of stamps Tom gave A.?
+
+19) Two travelers, one with 64 barrels of wine, other with 20 barrels of wine. They don't have enough money to pay duty for the same.
+First traveler pays 40 francs and gives his 5 barrels, Second traveler gives his 2 barrels but gets 40 francs in exchange.
+What's value of each barrel, and duty for each barrel?
+
+20)What is Ann's relation with her husband's mother's only daughter-in-law's sister's husband?
+
+21) Some guy holding a glass of wine in his hand looking around in the room says, "This is same as it was four years ago, how old are your two kids now?"
+Other guy says "Three now, Pam had one more in the meanwhile." Pam says, "If you multiply their ages, answer is 96 and if you add the ages of
+first two kids,
+addition is same as our house number." The first guy says, "You are very smart but that doesn't tell me their ages." Pam says, "It's very simple, just think."
+What are the ages of three kids?
+
+23)There are seven paintings T, U, V, W, X, Y, Z of which she has to select five for the exhibition. Following are the conditions: a. If T is selected,
+X cannot be selected If U is selected, Y must be selected If V is selected, X must be selected
+Answer following questions: (4 options for each sub-question, Don't remember options exactly)
+(i) Find the correct sequence of exhibits from the following:
+(ii) If V is selected then which of the following is true?
+(iii) Don't remember this question
+(iv) If in the selected sequence one exhibit replaces other without violating conditions, which of the following replacement is possible?
+
+24) There are three tribes, Abhor, Dravid and Magar.
+a. Abhor women can't marry Dravid man
+b. Magar man can't marry Dravid woman
+c. Son inherits tribe from his father and a daughter from her mother
+d. All other combinations are possible e. There's no wedlock
+Four sub-questions for this. Don't remember exactly but were like this: Can abhor and magar couple have dravid descendents, magar daughter, etc.
+
+25) Three customers want haircut and a shave. In a saloon, two barbers operate at same speed. They take quarter of an hour for the haircut and 5 mins
+for the shave. How quickly can they finish the haircut and shave of these three customers?
+
+26)A shopkeeper likes to arrange and rearrange his collection of stamps. He arranges them sometimes in pair, sometimes in bundle of three, sometimes in
+bundle of fours, occasionally in bundle of fives and sixes. Every time he's left with one stamp in hand after arrangement in bundles. But if he arranges in the
+bundle of seven, he's not left with any stamp. How many stamps does a shopkeeper have?
+
+27)Three different types of objects in a bucket. How many times does one need to select object from the bucket to get atleast 3 objects of the same type?
+
+28) I spent one-sixth of my age as a boy and one-12th in youth, remarked the boss" spent one-seventh and five years in matrimony".
+My son born just after that period was elected as a governor 4 years back when he was half of my present age. what is the age of the boss?
+Ans:-84
+
+29) A girl had several dollars with her. she went out for shopping and spent half of them in shopping mall,being generous she had given 1 dollar to
+the beggar. After that she wqent for lunch and spent the half of the remaining and gave 2 dollars as tip to the waiter.Then she went to watch a movie and
+spent the half of remaining dollars and gave autorikshaw-wala 3 dollars.This left her with only 1 dollar.How many dollars did she had with her at the beggining.
+
+30)couples were there ,B ,E,C. and G, H, M ,Bill,Eds and Cleo husbands and Grace,Helen and Marry wives, not in order.went to play 18 points golf .
+1.GHM and E scored 100,102,106 and 94 respectively.
+2.B and C either scored 98 and 96 and had written there scores in cards which they lost .but when found them back,they found that the two couples had
+the sAME TOTAL.
+3.eDS WIFE DEFEATED bILLS WIFE. Tell the combinations?
+

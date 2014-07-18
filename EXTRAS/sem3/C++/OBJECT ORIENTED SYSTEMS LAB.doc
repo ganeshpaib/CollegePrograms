@@ -1,0 +1,367 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\froman\fcharset0 Times New Roman;}}
+{\stylesheet{ Normal;}{\s1 heading 1;}{\s2 heading 2;}{\s3 heading 3;}{\s4 heading 4;}}
+{\*\generator Msftedit 5.41.15.1505;}\viewkind4\uc1\pard\keepn\s4\qc\b\f0\fs24 MCA-713 OBJECT ORIENTED SYSTEMS LAB\par
+Credit[0 0 3 1]\par
+\pard\b0\par
+\pard\qj\b Week 1:\par
+\pard{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart1\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360\b0 Imagine a tollbooth at a bridge. Cars passing by the booth are expected to pay 50 paise. Mostly they do, but some times a car goes by without paying. The tollbooth keeps track of the number of cars that have gone by, and of the total amount of money collected. Model this tollbooth with a class called Tollbooth. The 2 data items are a unsigned integer to hold the total number of cars, and a type double to hold the total amount of money collected. A constructor initializes both these to zero.  A member function called payingcar () increments the car total and adds 0.5 to the cash total. Finally a member function called display () displays the two totals. Write a program to test this class. This program should allow the user to push a key to count a paying car and another to count the non-paying car. Pushing ESC key should cause the program to print out the total cars and total cash and then exit.\par
+\pard\qj\par
+\pard{\pntext\f0 2.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart2\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360 Create a class called Time that has separate integer member data for hours, minutes and seconds. One constructor should initialize these data to 0, and another should initialize it to fixed values.  A member function should display it in hh:mm:ss format. The final member function should add two objects of Time passed as arguments. A main () program should create 2 initialized objects and one that is not initialized. Then it should add the 2 initialized objects leaving the result in the 3\super rd\nosupersub  Time object. Finally it should display the values of all the objects.\par
+\pard\qj\i\par
+\pard{\pntext\f0 3.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart3\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360\i0 Write an interactive program in C++ for swapping two integers, floats, and characters using function-overloading concept.\par
+\pard\qj\i\par
+\pard{\pntext\f0 4.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart4\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360\i0 Write a C++ program to create a class, which keeps track of the number of its instances. Use static member, constructors and destructors to maintain updated information about active objects.\par
+\pard\qj\par
+\par
+\b Week 2:\par
+\pard{\pntext\f0 5.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart5\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360\b0 Create a class called Account. This class contains name, account number and balance as its data members. The member functions of the class are getdata () to accept the data, display () to display the data, and transfer () to transfer the amount from one account to another. Write a C++ program to transfer a specified amount from one account to another and then update the balance in both the accounts.\par
+\pard\qj\par
+\pard{\pntext\f0 6.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart6\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360 Create a class, which contain a vector (a series of float values) as its data member. Include member function to perform the following:\par
+\pard{\pntext\f0 i.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart1\pnlcrm{\pntxta.}}
+\fi-720\li1080\qj\tx1080 To create the vector.\par
+\pard{\pntext\f0 ii.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart2\pnlcrm{\pntxta.}}
+\fi-720\li1080\qj\tx1080 To modify the value of a particular element.\par
+\pard{\pntext\f0 iii.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart3\pnlcrm{\pntxta.}}
+\fi-720\li1080\qj\tx1080 To multiply the vector by a scalar value.\par
+\pard{\pntext\f0 iv.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart4\pnlcrm{\pntxta.}}
+\fi-720\li1080\qj\tx1080 To display the vector in a neat format.\par
+\pard{\pntext\f0 v.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart5\pnlcrm{\pntxta.}}
+\fi-720\li1080\qj\tx1080 Addition of 2 vectors & display the resultant vectors.\par
+\pard\li360\qj Write a C++ program to test your class.\par
+\pard\qj\par
+\pard{\pntext\f0 7.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart7\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360 Define a class to represent the bank account.\par
+\pard\li360\qj Data members:\par
+\pard{\pntext\f0 i.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart1\pnlcrm{\pntxta.}}
+\fi-720\li1080\qj\tx1080 Customer name.\par
+\pard{\pntext\f0 ii.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart2\pnlcrm{\pntxta.}}
+\fi-720\li1080\qj\tx1080 Account number.\par
+\pard{\pntext\f0 iii.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart3\pnlcrm{\pntxta.}}
+\fi-720\li1080\qj\tx1080 Account type.\par
+\pard{\pntext\f0 iv.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart4\pnlcrm{\pntxta.}}
+\fi-720\li1080\qj\tx1080 Balance amount.\par
+\pard\li360\qj Member functions:\par
+\pard{\pntext\f0 i.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart1\pnlcrm{\pntxta.}}
+\fi-720\li1080\qj\tx1080 To assign initial values.\par
+\pard{\pntext\f0 ii.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart2\pnlcrm{\pntxta.}}
+\fi-720\li1080\qj\tx1080 To deposit an amount.\par
+\pard{\pntext\f0 iii.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart3\pnlcrm{\pntxta.}}
+\fi-720\li1080\qj\tx1080 To withdraw an amount after checking the balance.\par
+\pard{\pntext\f0 iv.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart4\pnlcrm{\pntxta.}}
+\fi-720\li1080\qj\tx1080 To display name and balance based on account number.\par
+\pard\li360\qj Write a C++ program to test the program and modify the class for 10 customers.\par
+\pard\qj\par
+\pard{\pntext\f0 8.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart8\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360 Create a Student class, which contains name, roll number and marks in 6 subjects. Write an interactive C++ program to display the results of 10 students in a neat format. Include proper member functions in the class.\par
+\pard\qj\par
+\b Week 3:\par
+\pard{\pntext\f0 9.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart9\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360\b0 Create a class called Array, which contains one dimensional array of integers and an integer member which represents the actual size of the array. The Array class contains the following member functions:\par
+\pard{\pntext\f0 i.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart1\pnlcrm{\pntxta.}}
+\fi-720\li1080\qj\tx1080 void inputarray ()\par
+\pard{\pntext\f0 ii.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart2\pnlcrm{\pntxta.}}
+\fi-720\li1080\qj\tx1080 void display ()\par
+\pard{\pntext\f0 iii.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart3\pnlcrm{\pntxta.}}
+\fi-720\li1080\qj\tx1080 int largest ()\par
+\pard{\pntext\f0 iv.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart4\pnlcrm{\pntxta.}}
+\fi-720\li1080\qj\tx1080 float average ()\par
+\pard{\pntext\f0 v.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart5\pnlcrm{\pntxta.}}
+\fi-720\li1080\qj\tx1080 void sort ()\par
+\pard\li360\qj Write a C++ program to implement and test the above class.\par
+\pard\qj\par
+\par
+\pard{\pntext\f0 10.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart10\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360 Write a C++ program to create a class called Complex and implement the following by overloading the function add () which returns the complex number.\par
+\pard{\pntext\f0 i.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart1\pnlcrm{\pntxta.}}
+\fi-720\li1080\qj\tx1080 add (s1,s2) where s1 is an integer and s2 is a complex number\par
+\pard{\pntext\f0 ii.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart2\pnlcrm{\pntxta.}}
+\fi-720\li1080\qj\tx1080 add (s1,s2) where s1 & s2 are both complex numbers.\par
+\pard\qj\par
+\par
+\pard{\pntext\f0 11.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart11\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360 Write a C++ program to create a class called Matrix using 2 dimensional array of integers. Implement the following by overloading the operator == which checks the compatibility of the two matrices to be added and subtracted. Perform the following by overloading + and \endash  operators. Display the result by overloading the operator <<.\par
+\pard\qj   \tab if ( m1 == m2 )\par
+\tab\{\par
+\tab\tab m3 = m1 + m2;\par
+\tab\tab m4 = m1 \endash  m2;\par
+\tab\}\par
+\tab else\par
+\tab\{\par
+\tab\tab // Display an error message\par
+\tab\}\par
+Where m1, m2, m3, and m4 are objects of Matrix class.\par
+\par
+\pard{\pntext\f0 12.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart12\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360 Write a C++ program to create a class called Date, which contains integer members to represent day, month, and year. The overload ++ operator to increment the value of Date object by one.\par
+\pard\qj\par
+\b Week 4:\par
+\pard{\pntext\f0 13.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart13\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360\b0 Write a menu driven C++ program to perform the following:\par
+\pard{\pntext\f0 i.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart1\pnlcrm{\pntxta.}}
+\fi-720\li1080\qj\tx1080 Addition\par
+\pard{\pntext\f0 ii.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart2\pnlcrm{\pntxta.}}
+\fi-720\li1080\qj\tx1080 Subtraction\par
+\pard{\pntext\f0 iii.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart3\pnlcrm{\pntxta.}}
+\fi-720\li1080\qj\tx1080 Multiplication\par
+\pard{\pntext\f0 iv.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart4\pnlcrm{\pntxta.}}
+\fi-720\li1080\qj\tx1080 Division\par
+\pard\li360\qj on objects of Complex class with operator overloading concept.\par
+\pard\qj\par
+\pard{\pntext\f0 14.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart14\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360 Write a C++ program to overload the relational operators >, <, == to compare 2 objects of String class.\par
+\pard\qj\par
+\pard{\pntext\f0 15.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart15\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360 Write a C++ program to overload +=, -=, *=, and /= operators with respect to objects of Complex class.\par
+\pard\qj\par
+\pard{\pntext\f0 16.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart16\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360 Create class called Float the contains one float member data. Overload all the 4 arithmetic operators so that they operate on objects of Float class.\par
+\pard\qj\par
+\b Week 5:\par
+\pard{\pntext\f0 17.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart17\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360\b0  Write a program to overload unary operator for processing counters. it should support both upward and downward counting. It must also support operator for adding 2 counters and storing the result in another counter.\par
+\pard\qj\par
+\pard{\pntext\f0 18.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart18\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360  Write an interactive operator overloaded program in C++ for manipulating objects of Matrix class. Overload operators such as >>, <<, +, *, ==.\par
+\pard\qj\par
+\pard{\pntext\f0 19.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart19\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360  Write a C++ program to convert Rupees (object) to Paise (integer) and viceversa using type casting technique. Overload proper type casting operator.\par
+\pard\qj\par
+\pard{\pntext\f0 20.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart20\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360  Create a class called Time12, which maintains time on 12-hour basis. Create another class called Time24, which maintains time on 24-hour basis. Write a C++ program to implement the following:\par
+\pard\li720\qj tm12 = tm24;\par
+t24 = t12;\par
+\pard\qj  \tab where tm12 and t12 are objects of Time12 class and tm24 and t24 are objects of Time24 class.\par
+\par
+\b Week 6:\par
+\pard{\pntext\f0 21.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart21\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360\b0 Consider an example of declaring the examination results. Design 3 classes i.e., Student, Exam, and Result. The Student class has data members such as roll number, name, branch, and year of joining. Create Exam class by inheriting Student class. The Exam class has data members representing the marks scored in 6 subjects. Derive Result class from Exam class, and it has its own data members such as total marks and result. Write an interactive C++ program to model this relationship. Include validation wherever required. Display the grade-sheet of the student.\par
+\pard\qj\par
+\par
+\pard{\pntext\f0 22.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart22\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360 A new scheme of evaluation of student\rquote s performance is formulated that gives weightage for sports. The relationships of different classes and derived classes are given below.\par
+\pard\li2880\qj Student\par
+\pard\qj\tab\tab\tab Exam\tab\tab\tab Sports\tab\par
+\tab\tab\tab\tab     Result\tab\par
+By properly assuming the data members & member functions for each class, write a C++ program to model the above relationship such that members of the student class are not inherited twice.\par
+\par
+\pard{\pntext\f0 23.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart23\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360 Consider the following relationship:\par
+\pard\li1440\qj Publication\tab\tab\tab\tab Sales\par
+\pard\qj\tab Pamphlet\tab\tab Book\tab\tab\tab Tape\par
+\tab Notice\par
+\tab Consider a publishing company that publishes and markets books and tapes whose activities are shown in the above fig. Create a class Publication that stores the title (string) and price (float) of a publication. Create another class Sales that holds an array of 3 floats so that it can record the sales of a particular publication for the last 3 months. From these 2 classes derive a new class Book that hold pages of integer type. Each of these classes should have member functions getdata (), and display (). From the Publication and Sales class derive Tape class which adds playing time in minutes. Create another class Pamphlet from Publication, which has no features of its own. Derive a class Notice from Pamphlet having a data member char whom[20] and member functions getdata (), and putdata (). Write an interactive C++ program to model the above relationship.\par
+\par
+\par
+\par
+\par
+\pard{\pntext\f0 24.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart24\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360 Consider the following relationship:\par
+\pard\qj\par
+\pard\li3600\qj  Student\par
+\pard\fi720\qj\tab\tab Internal Exam\tab External Exam\par
+\pard\qj\tab\tab\tab\tab\tab Result\par
+Write an interactive C++ program to model the above relationship. Assume proper data members & member functions for each class. Include data validation. Also display the grade-sheet. Test your program for 10 students. \par
+\par
+\b Week 7:\par
+\b0 25. Consider an example of bookshop, which sells books & videotapes. The two classes Book & Tape are inherited from the base class Media. The Media class has common data members such as title & publication. The Book class has data members for storing the number of pages in a book and Tape class has the playing time in a tape. Each class will have member functions such as read (), and show (). In the base class these member functions has to be defined as virtual functions. Write a C++ program, which models the class hierarchy for bookshop and processes objects of these classes using pointers to the base class.\par
+\par
+\pard{\pntext\f0 26.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart26\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360 Consider the following class hierarchy:\par
+\pard\li720\qj Class Employee\tab\tab\tab Class Education\par
+\par
+Class Laborer\tab Class Scientist\tab Class Manager\par
+\pard\qj  Write an interactive C++ program to model the above relationship. Assume proper data members & member functions for each class.\par
+\par
+\pard{\pntext\f0 27.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart27\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360 Write an interactive C++ program to create a graphic class hierarchy. Create a base class called Figure and derive two classes Close and Open from that. Define two more classes called Polygon and Ellipse using the Close class. Create derived classes Line and Polyline from the Open class. Define three objects (triangle, rectangle, and pentagon) of the class Polygon. All classes must have appropriate member function including constructors and destructors.\par
+\pard\qj\par
+\b Week 8:\par
+\pard{\pntext\f0 28.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart28\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360\b0 Consider the following relationship:\par
+\pard\li3600\qj Account\par
+\pard\qj\par
+\tab\tab Savings Account\tab Fixed Deposit\tab Current Account\par
+\par
+\tab\tab\tab\tab Short Term\tab Medium Term\tab Long Term\par
+Write an interactive C++ program to model the above relationship. Use appropriate data members & member functions for each class.\par
+\par
+\par
+\pard{\pntext\f0 29.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart29\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360 Create a base class called Shape. Use this class to store 2 double type values that could be used to compute the area of the figures. Derive 2 specific classes called Triangle & Rectangle from the base class Shape. Add to the base class, a member function getdata() to initialize base class data members and another member function display_area() as a virtual function and redefine this function in the derived classes to suit their requirements. Using these 3 classes design a program that will accept dimensions of a triangle or rectangle interactively and display the area.\par
+\pard\qj\par
+\pard{\pntext\f0 30.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart30\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360 Consider the following relationship:\par
+\pard\qj\par
+\pard\fi720\li2880\qj Vehicle\par
+\pard\qj\tab\tab\tab Light Motor\tab\tab\tab\tab\tab Heavy Motor\par
+\pard\fi720\qj Gear Motor\tab Non Gear Motor\tab\tab Passenger\tab\tab Goods \par
+\par
+Vehicle class has name of the vehicle and wheel count as its data members, getdata(), displaydata() as its member functions.\par
+Light Motor class has speed limit as its data member, getdata(), displaydata() as its member functions.\par
+Heavy Motor class load capacity and permit as its data members, getdata(), displaydata() as its member functions.\par
+Gear Motor class has gear count as its member data, getdata(), displaydata() as its member functions.\par
+Non Gear Motor class has getdata(), displaydata() as its member functions.\par
+Passenger class has sitting capacity and standing capacity as its data members, getdata(), displaydata() as its member functions.\par
+Goods class has getdata(), displaydata() as its member functions.\par
+\pard\qj Write an interactive C++ program to model the above relationship.\par
+\par
+\b Week 9:\par
+\pard{\pntext\f0 31.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart31\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360\b0 Consider the following:\par
+\pard\li3600\qj\par
+\pard\qj\tab\tab\tab\tab\tab\tab\par
+\tab\tab\tab\tab\tab\tab\tab\tab\par
+\par
+The class Master derives information from both Account and Admin classes, which in turn derive information from the class Employee. Define all the 4 classes and write a program to create, update, and display the information contained in the Master object.\par
+\par
+\pard{\pntext\f0 32.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart32\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360 Imagine a company that markets both hardware and software. Create a base class Item that stores the title of the item and its price. Create another base class Sales that holds an array of 3 floats so that it can record the sale in rupees of a particular item for the last 3 months. Now derive 2 classes Hwitem and Switem from both Item and Sales. The Hwitem class holds category of the item and its original manufacturer, where as Switem holds the type of the software and OS under which it works. Each class has its own getdata() and displaydata() functions to input and output data respectively. Write an interactive program to model the above relationship.\par
+\pard\qj\par
+\par
+\pard{\pntext\f0 33.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart33\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360 Consider the following relationship:\par
+\pard\li2880\qj Account\par
+\pard\qj\tab\tab\tab Curr_acc\tab Sav_acc\par
+Account class has name, account number, and account type as its data members, getdata(), display() as its member functions.\par
+Curr_acc class has balance and minimum as its data members, getdata(), deposit(), withdrawl(), interest(), displaybalance() as its member functions.\par
+Sav_acc class has balance and minimum as its data members, getdata(), deposit(), withdrawl(), interest(), displaybalance() as its member fumctions.\par
+Write an interactive program to model the above relationship.\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\b Week 10:\par
+\pard{\pntext\f0 34.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart34\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360\b0 Consider the following relationship:\par
+\pard\li2880\qj Person \par
+\pard\qj\par
+ \tab\tab\tab Teacher\tab Student\par
+\tab\tab\tab\tab\tab Exams\tab Talents\par
+\tab\tab\tab\tab\tab Awards\par
+Person class has name, age as its data members, and getdata(), display() as its member functions.\par
+Student class has qualification as its data member, and read(), print() as its member functions.\par
+Teacher class has experience as its data member, and input(), output() as its member functions.\par
+Exams class has percentage as its data member, and read(), print() as its member functions.\par
+Talents class has talent type as its data member, and read(), print() as its member functions.\par
+Awards class has getdata(), printdata() as its member functions.\par
+Write an interactive program to model the above relationship.\par
+\par
+\pard{\pntext\f0 35.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart35\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360 Write a C++ program to create a base class called Student, having name, roll number and age as its data members. From this class create 2 new classes called UGStudent and PGStudent with semester and fees as its data members. Find the average age, semester-wise for all UG and PG students. Use proper member functions for all the classes.\par
+\pard\qj\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\pard{\pntext\f0 36.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart36\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360 Consider the following relationship:\par
+\pard\qj\par
+      \tab\tab\tab\tab\tab\tab Staff\par
+\par
+\pard\fi720\qj Teaching\tab\tab\tab Non-Teaching\tab\tab Office\par
+\par
+\pard\qj Lecturer\tab Asst.Prof\tab Prof\tab Instructor\tab Attender\tab Clerk\tab Manager\par
+\par
+Write an interactive C++ program to model the above relationship. Use proper member data and member functions in each class.\par
+\par
+\b Week 11:\par
+\b0\par
+\pard{\pntext\f0 37.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart37\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360 Write a menu driven C++ program to create a single line text file and then implement the following:\par
+\pard{\pntext\f0 1\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart1\pndec }
+\fi-360\li720\qj\tx720 Count how many times each alphabet is present in the text file.\par
+\pard{\pntext\f0 2\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart2\pndec }
+\fi-360\li720\qj\tx720 Convert every lower case letter to upper case and upper case letter to lower case.\par
+\pard{\pntext\f0 3\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart3\pndec }
+\fi-360\li720\qj\tx720 Display the content of the file. While displaying the file contents, display only 10 characters per line.\par
+\pard{\pntext\f0 4\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart4\pndec }
+\fi-360\li720\qj\tx720 Determine how many times a particular character is present in the file.\par
+\pard\qj\par
+\pard{\pntext\f0 38.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart38\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360 Write a C++ program to create a multi line text file and then determine the following:\par
+\pard{\pntext\f0 i.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart1\pnlcrm{\pntxta.}}
+\fi-720\li1080\qj\tx1080 Total number of characters.\par
+\pard{\pntext\f0 ii.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart2\pnlcrm{\pntxta.}}
+\fi-720\li1080\qj\tx1080 Total number of alphabets.\par
+\pard{\pntext\f0 iii.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart3\pnlcrm{\pntxta.}}
+\fi-720\li1080\qj\tx1080 Total number of digits.\par
+\pard{\pntext\f0 iv.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart4\pnlcrm{\pntxta.}}
+\fi-720\li1080\qj\tx1080 Total number of lines.\par
+\pard{\pntext\f0 v.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart5\pnlcrm{\pntxta.}}
+\fi-720\li1080\qj\tx1080 Total number of spaces.\par
+\pard\qj\par
+\pard{\pntext\f0 39.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart39\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360 Write a menu driven C++ program to create a multi line text file. Then implement the following:\par
+\pard{\pntext\f0 1\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart1\pndec }
+\fi-360\li720\qj\tx720 Copy the content of the file to another file by suppressing all spaces.\par
+\pard{\pntext\f0 2\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart2\pndec }
+\fi-360\li720\qj\tx720 Perform encryption and decryption.\par
+\pard{\pntext\f0 3\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart3\pndec }
+\fi-360\li720\qj\tx720 Display the contents of the file by suppressing all special characters.\par
+\pard\qj\par
+\par
+\pard{\pntext\f0 40.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart40\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360 Write a menu driven C++ program to create a multi line text file (using string I/O), and then implement the following:\par
+\pard{\pntext\f0 1\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart1\pndec }
+\fi-360\li720\qj\tx720 Display the file contents. While displaying the file contents, at the end of the each line display the total number of characters present in that line.\par
+\pard{\pntext\f0 2\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart2\pndec }
+\fi-360\li720\qj\tx720 Display the file contents by converting the first character of each word to capital letter.\par
+\pard{\pntext\f0 3\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart3\pndec }
+\fi-360\li720\qj\tx720 Determine the total number of words and total number of spaces present in the file. Note that the words can be separated by more than one space.\par
+\pard{\pntext\f0 4\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart4\pndec }
+\fi-360\li720\qj\tx720 Determine the total number of palindromes present in the file.\par
+\pard\qj\par
+\b Week 12:\par
+\b0\par
+\pard{\pntext\f0 41.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart41\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360  Write a C++ program to create a student database and store the following information:\par
+\pard\li360\qj i. Name\tab ii. Roll number (auto generated)\tab  iii. Branch\tab iv. Marks in 6 subjects.\par
+Then accept a student roll number from the keyboard and generate the marks sheet for that student. Make use of sequential file concept.\par
+\pard\qj\par
+\pard{\pntext\f0 42.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart42\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360 Write a C++ program to create an employee database and store the following information:\par
+\pard\li360\qj i. Name ii. Employee id\tab iii. Department\tab iv. Designation\par
+\pard\keepn\s3\qj     v. Basic salary\par
+\pard\li360\qj Then accept an employee id from the keyboard and generate the salary slip for that employee. Use suitable formulas to calculate DA, HRA, GROSS PAY, INCOME TAX and NET PAY. Make use of random access file concept. (Employee id should be generated automatically)\par
+\pard\qj\par
+\pard{\pntext\f0 43.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart43\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360 Write a C++ program to create a book database and store the following information:\par
+\pard\li360\qj i. Title\tab ii. Author name\tab iii. Accession number\tab iv. Pages\par
+Then display the book information based on the following:\par
+i. Title\tab ii. Author\tab iii. Accession number.\par
+Make use of sequential file concepts. (Accession number must be auto generated)\par
+\pard\qj\par
+\pard{\pntext\f0 44.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart44\pndec{\pntxta.}}
+\fi-360\li360\qj\tx360 Write a C++ program to create an item database and store the following information:\par
+\pard\li360\qj i. Item name\tab ii. Item code\tab\tab iii. Unit price\tab iv. Quantity on hand\par
+Then implement the following:\par
+\pard{\pntext\f0 i.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart1\pnlcrm{\pntxta.}}
+\fi-720\li1080\qj\tx1080 Add a new record\par
+\pard{\pntext\f0 ii.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart2\pnlcrm{\pntxta.}}
+\fi-720\li1080\qj\tx1080 Modify the existing record\par
+\pard{\pntext\f0 iii.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart3\pnlcrm{\pntxta.}}
+\fi-720\li1080\qj\tx1080 Delete a record.\par
+\pard\li360\qj Make use of random access file concept. The item code should be generated automatically.\par
+\pard\brdrb\brdrdot\brdrw60\brsp20 \li360\qj\par
+\pard\qj\par
+\par
+}
+ 

@@ -1,0 +1,121 @@
+CREATE TABLE A_MUSIC_CATEGORY(CATEGORY_ID VARCHAR(20) primary key, 
+		CATEGORY VARCHAR(20));
+
+*********************************************************************************************
+
+INSERT INTO A_MUSIC_CATEGORY(CATEGORY_ID, CATEGORY) 
+		VALUES(&CATEGORY_ID, &CATEGORY)
+
+**********************************************************************************************
+
+CREATE TABLE A_MUSIC_SUPPLIER(SUPPLIER_ID VARCHAR2(10) primary key, 
+	SUPPLIER_NAME VARCHAR2(20), ADDRESS VARCHAR2(100), 
+	PHONE VARCHAR2(20));
+
+*********************************************************************************************************************************************
+
+CREATE TABLE A_MUSIC_STOCK(ITEM_ID VARCHAR2(10) PRIMARY KEY,
+	 UNITS NUMBER(3), PRICE NUMBER(5,2),
+	 SUPPLIER_ID VARCHAR2(10) REFERENCES A_MUSIC_SUPPLIER);
+
+******************************************************************
+
+CREATE TABLE A_MUSIC_ALBUM(ITEM_ID VARCHAR2(10) REFERENCES A_MUSIC_STOCK,
+		ALBUM_NAME VARCHAR2(20), ARTIST VARCHAR2(20), 
+		CATEGORY_ID VARCHAR2(10) REFERENCES A_MUSIC_CATEGORY,
+		LANGUAGE VARCHAR2(20));
+
+*********************************************************************************
+
+create sequence a_music_seqbill increment by 1 start with 100;
+
+**********************************************************
+
+select a_seq.nextval from dual;
+
+
+**********************************************
+
+insert into val1 values('C'||a_seq.nextval);
+
+*****************************************************************
+
+create sequence a_music_seqpid increment by 1 start with 100;
+
+**********************************************************************
+create sequence a_music_seqsid increment by 1 start with 100;
+
+******************************************************************
+
+Dim cnn As New OleDb.OleDbConnection
+        cnn.ConnectionString = "Provider=MSDAORA.1;User ID=scott;Password=tiger; data source=;"
+
+        Dim cmd As New OleDb.OleDbCommand
+        Dim cmd1 As New OleDb.OleDbCommand
+        Dim DR As OleDb.OleDbDataReader
+        Dim val As New Integer
+        
+        cnn.Open()
+        cmd.Connection = cnn
+        cmd.CommandText = "select A_MUSIC_seqpid.nextval from dual"   'GETERATE BILL NUMBER
+
+
+
+        cmd.ExecuteNonQuery()
+        DR = cmd.ExecuteReader
+        DR.Read()
+
+        val = DR.Item(0)
+        TextBox1.Text = "C" + val.ToString
+
+        DR.Close()
+        cnn.Close()
+
+        cnn.Open()
+
+        cmd1.Connection = cnn
+        cmd1.CommandText = "SELECT A_MUSIC_SEQSID.NEXTVAL FROM DUAL"
+        cmd1.ExecuteNonQuery()
+        DR = cmd1.ExecuteReader
+        DR.Read()
+
+        SID = DR.Item(0)
+
+	DR.Close()
+        cnn.Close()
+
+************************************************************************************************
+ID = "S" + SID.ToString
+        ALBUM = TextBox2.Text
+
+        CAT_ID = ComboBox1.Text
+        units = (TextBox4.Text)
+        sup_id = ComboBox3.Text
+
+
+
+        cmd.CommandText = "insert into A_MUSIC_STOCK values('" + ID + "','" + ALBUM + "','" + CAT_ID + "'," + units + ",'" + sup_id + "')"
+
+        cmd.ExecuteReader()
+
+
+        MsgBox("Record saved Successfully", MsgBoxStyle.Information, "SAVE")
+        
+        cnn.Close()
+
+***************************************
+
+
+
+
+
+************************************************************
+MUSIC STORE PROJECT SCHEMA DEFINITIONS
+************************************************************
+
+
+CREATE SEQUENCE A_MUSIC_SEQCAT INCREMENT BY 1 START WITH 1;
+
+******************************************************************
+
+create sequence a_music_seqsup increment by 1 start with 1;

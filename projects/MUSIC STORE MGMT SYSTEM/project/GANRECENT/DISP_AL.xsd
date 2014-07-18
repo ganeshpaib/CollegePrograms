@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="DISP_AL" targetNamespace="http://www.tempuri.org/DISP_AL.xsd" xmlns:mstns="http://www.tempuri.org/DISP_AL.xsd" xmlns="http://www.tempuri.org/DISP_AL.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="DISP_AL" msdata:IsDataSet="true">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="A_MUSIC_PURCHASE">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="P_ID" type="xs:string" />
+              <xs:element name="ALBUM_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="ARTIST" type="xs:string" minOccurs="0" />
+              <xs:element name="UNITS" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PRICE" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUPPLIER_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="CATEGORY_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="LANGUAGE" type="xs:string" minOccurs="0" />
+              <xs:element name="PDATE" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PMON" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PYEAR" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:A_MUSIC_PURCHASE" />
+      <xs:field xpath="mstns:P_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

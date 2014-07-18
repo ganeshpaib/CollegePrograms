@@ -1,0 +1,26 @@
+CREATE TABLE A_MUSIC_CATEGORY(CATEGORY_ID VARCHAR(20) primary key, 
+		CATEGORY VARCHAR(20));
+
+*********************************************************************************************
+
+INSERT INTO A_MUSIC_CATEGORY(CATEGORY_ID, CATEGORY) 
+		VALUES(&CATEGORY_ID, &CATEGORY)
+
+**********************************************************************************************
+
+CREATE TABLE A_MUSIC_SUPPLIER(SUPPLIER_ID VARCHAR2(10) primary key, 
+	SUPPLIER_NAME VARCHAR2(20), ADDRESS VARCHAR2(20), 
+	PHONE VARCHAR2(20));
+
+*********************************************************************************************************************************************
+
+CREATE TABLE A_MUSIC_STOCK(ITEM_ID VARCHAR2(10) PRIMARY KEY,
+	 UNITS NUMBER(3), PRICE NUMBER(5,2),
+	 SUPPLIER_ID VARCHAR2(10) REFERENCES A_MUSIC_SUPPLIER);
+
+******************************************************************
+
+CREATE TABLE A_MUSIC_ALBUM(ITEM_ID VARCHAR2(10) REFERENCES A_MUSIC_STOCK,
+		ALBUM_NAME VARCHAR2(20), ARTIST VARCHAR2(20), 
+		CATEGORY_ID VARCHAR2(10) REFERENCES A_MUSIC_CATEGORY,
+		LANGUAGE VARCHAR2(20));

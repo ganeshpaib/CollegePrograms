@@ -1,0 +1,25 @@
+create table reg_stud(reg_id number(3), name varchar2(20));
+
+*****************************************************************
+
+insert into reg_stud(reg_id, name) values(&reg_id, &name);
+
+******************************************************************
+
+create table stud_det(reg_id number(3), marks number(3));
+
+**************************************************************
+
+insert into stud_det(reg_id, marks) values(&reg_id, &marks);
+
+************************************************************
+
+create sequence a_seq increment by 1 start with 1;
+
+**********************************************************
+
+select a_seq.nextval from dual;
+
+**********************************************
+
+insert into val1 values('C'||a_seq.nextval);

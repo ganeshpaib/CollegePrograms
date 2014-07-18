@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="cat" targetNamespace="http://www.tempuri.org/cat.xsd" xmlns:mstns="http://www.tempuri.org/cat.xsd" xmlns="http://www.tempuri.org/cat.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="cat" msdata:IsDataSet="true">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="A_MUSIC_CATEGORY">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CATEGORY_ID" type="xs:string" />
+              <xs:element name="CATEGORY" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:A_MUSIC_CATEGORY" />
+      <xs:field xpath="mstns:CATEGORY_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
